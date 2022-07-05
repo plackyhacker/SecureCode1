@@ -4,6 +4,12 @@ Python exploit for the VulnHub OSWE practice box 'SecureCode1'
 
 The box was fairly easy to exploit if you know your way around PHP code. I have uploaded the exploit for anybody that gets stuck. :-)
 
+## The Codez
+
+[exploit.py](https://github.com/plackyhacker/SecureCode1/blob/main/exploit.py)
+
+## Execution
+
 ```
 python3 ./exploit.py 192.168.1.167 Password123
 [+] Don't forget to start your netcat listener: nc -nvlp 4444
